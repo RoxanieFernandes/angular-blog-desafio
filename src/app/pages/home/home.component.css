@@ -1,0 +1,24 @@
+.container__articles {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.articles_others {
+  margin-top: 15px;
+}
+
+
+@media (min-width: 768px) {
+  .container__articles {
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .articles_others {
+    margin-top: 0;
+  }
+}
